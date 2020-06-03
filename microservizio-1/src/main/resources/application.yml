@@ -1,0 +1,23 @@
+server:
+  port: ${random.int(20002,29999)}
+spring:
+  application:
+    name: microservizio-1
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+  instance:
+    preferIpAddress: true
+#  instance:
+#    preferIpAddress: true
+#    leaseRenewalIntervalInSeconds: 1
+#    leaseExpirationDurationInSeconds: 2
+#    metadataMap:
+#      grpc.port: 6565
