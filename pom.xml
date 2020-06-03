@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>it.corso.esempio</groupId>
+	<artifactId>demo-microservizi</artifactId>
+	<name>demo-microservizi</name>
+	<packaging>pom</packaging>
+	<version>1.0</version>
+	
+	<modules>
+		<module>microservizio-1</module>
+		<module>microservizio-2</module>
+		<module>service-discovery</module>
+		<module>gateway-server</module>
+	</modules>
+
+</project>
