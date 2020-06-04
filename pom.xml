@@ -5,17 +5,18 @@
 		 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
+	<!-- parent pom -->
 	<groupId>it.corso.esempio</groupId>
-	<artifactId>demo-microservizi</artifactId>
-	<name>demo-microservizi</name>
+	<artifactId>microservizi-demo</artifactId>
+	<name>microservizi-demo</name>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 	
+	<!-- sub modules -->
 	<modules>
 		<module>microservizio-1</module>
 		<module>microservizio-2</module>
 		<module>service-discovery</module>
 		<module>gateway-server</module>
 	</modules>
-
 </project>

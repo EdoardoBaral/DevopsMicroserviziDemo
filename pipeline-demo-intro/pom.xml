@@ -10,9 +10,9 @@
 		<relativePath />
 	</parent>
 	<groupId>it.corso.esempio</groupId>
-	<artifactId>microservices-demo-app</artifactId>
+	<artifactId>pipeline-demo-app</artifactId>
 	<version>0.1.3-SNAPSHOT</version>
-	<name>microservices-demo-app</name>
+	<name>pipeline-demo-app</name>
 
 	<distributionManagement>
 		<repository>
@@ -23,7 +23,7 @@
 	</distributionManagement>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>8</java.version>
 		<code.coverage.exclusions>**/it/corso/esempio/pojo/**, **/it/corso/esempio/Application.java</code.coverage.exclusions>
 	</properties>
 

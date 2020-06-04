@@ -1,10 +1,10 @@
-package it.corso.esempio.microservizio1.response;
+package it.corso.esempio.microservizio2.response;
 
 import org.springframework.http.ResponseEntity;
 
 import java.util.Objects;
 
-public class Microservizio1Response {
+public class Microservizio2Response {
     private String status;
     private int port;
     private String name;
@@ -12,7 +12,7 @@ public class Microservizio1Response {
 
     @Override
     public String toString() {
-        return "Microservizio1Response{" +
+        return "Microservizio2Response{" +
                 "status='" + status + '\'' +
                 ", port=" + port +
                 ", name='" + name + '\'' +
@@ -50,7 +50,7 @@ public class Microservizio1Response {
             return true;
         if (o == null || getClass() != o.getClass())
             return false;
-        Microservizio1Response that = (Microservizio1Response) o;
+        Microservizio2Response that = (Microservizio2Response) o;
         return Objects.equals(status, that.status);
     }
 

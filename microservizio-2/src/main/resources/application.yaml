@@ -3,7 +3,7 @@ server:
 #  port: ${random.int(20002,29999)}
 spring:
   application:
-    name: microservizio-1
+    name: microservizio-2
 eureka:
   client:
     should-unregister-on-shutdown: false
@@ -16,7 +16,7 @@ eureka:
     lease:
       duration: 5
   instance:
-    lease-renewal-interval-in-seconds: 15
+    lease-renewal-interval-in-seconds: 30
     preferIpAddress: true
 #  instance:
 #    preferIpAddress: true
@@ -24,3 +24,4 @@ eureka:
 #    leaseExpirationDurationInSeconds: 2
 #    metadataMap:
 #      grpc.port: 6565
+
